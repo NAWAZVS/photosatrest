@@ -103,3 +103,7 @@ Update API_BASE in index.html with your API Gateway URL
 Open in browser or host on S3
 
 ![Frontend Gallery](front-end.png)
+
+
+NAWAZ VS 
+AWS SOLUTIONS ARCHITECT - ASSOCIATE | BCA VIT VELLORE
