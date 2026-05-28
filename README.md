@@ -43,11 +43,11 @@ IAM Roles and least-privilege policies per Lambda Global
 CloudWatchLambda logs and monitoring ap-south-2
 
 ![S3 Buckets](screenshots/s3.png)
-![S3 Approved](screenshots/s3%20approved.png)
+![S3 Approved](screenshots/s3-approved.png)
 ![Lambda Functions](screenshots/lambda.png)
 ![Presign Lambda](screenshots/presign.png)
 ![Moderator Lambda](screenshots/mod.png)
-![DynamoDB Table](screenshots/dynamo%20db%20table.png)
+![DynamoDB Table](screenshots/dynamo-db-table.png)
 ![SNS](screenshots/sns.png)
 
 Presigned URL pattern
@@ -102,4 +102,4 @@ Add resource-based policy on getImages Lambda allowing apigateway.amazonaws.com
 Update API_BASE in index.html with your API Gateway URL
 Open in browser or host on S3
 
-![Frontend Gallery](screenshots/front%20end.png)
+![Frontend Gallery](screenshots/front-end.png)
