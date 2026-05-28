@@ -27,6 +27,8 @@ SNS email ✅    SNS email ❌
  ↓
 Frontend gallery fetches via GET /images → API Gateway → Lambda → DynamoDB
 
+![API Gateway](screenshots/api.png)
+
 
 AWS SERVICES USED
 S3Image storage (raw-uploads/ + approved/) ap-south-2
@@ -39,6 +41,14 @@ DynamoDB Image metadata storeap-south-2
 SNS Email notification on moderation resultap-south-2
 IAM Roles and least-privilege policies per Lambda Global
 CloudWatchLambda logs and monitoring ap-south-2
+
+![S3 Buckets](screenshots/s3.png)
+![S3 Approved](screenshots/s3%20approved.png)
+![Lambda Functions](screenshots/lambda.png)
+![Presign Lambda](screenshots/presign.png)
+![Moderator Lambda](screenshots/mod.png)
+![DynamoDB Table](screenshots/dynamo%20db%20table.png)
+![SNS](screenshots/sns.png)
 
 Presigned URL pattern
 Instead of uploading through API Gateway (10MB limit), the frontend requests a one-time presigned URL from Lambda and uploads directly to S3. This bypasses payload limits and reduces Lambda cost.
@@ -92,4 +102,4 @@ Add resource-based policy on getImages Lambda allowing apigateway.amazonaws.com
 Update API_BASE in index.html with your API Gateway URL
 Open in browser or host on S3
 
-
+![Frontend Gallery](screenshots/front%20end.png)
